@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Section 03 | おとしもの展</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+  <!-- =========================
+       固定ヘッダー
+  ========================== -->
+
+  <header class="site-header">
+
+    <a
+      href="../index.html?home"
+      class="home-logo"
+    >
+      おとし<br>
+      もの展
+    </a>
+
+
+    <button
+      class="menu-button"
+      id="menu-button"
+      type="button"
+      aria-label="メニューを開く"
+      aria-expanded="false"
+      aria-controls="global-menu"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+  </header>
+
+
+  <!-- メニュー背景 -->
+
+  <div
+    class="menu-backdrop"
+    id="menu-backdrop"
+  ></div>
+
+
+  <!-- ハンバーガーメニュー -->
+
+  <nav
+    class="global-menu"
+    id="global-menu"
+    aria-hidden="true"
+  >
+
+    <ul class="global-menu__list">
+
+      <li>
+        <a
+          href="../index.html?home"
+          class="global-menu__link"
+        >
+          <span>TOP</span>
+          <span class="global-menu__arrow"></span>
+        </a>
+      </li>
+
+
+      <li>
+        <a
+          href="../index.html#manager"
+          class="global-menu__link"
+        >
+          <span>管理人ご挨拶</span>
+          <span class="global-menu__arrow"></span>
+        </a>
+      </li>
+
+
+      <li>
+        <a
+          href="../index.html#welcome"
+          class="global-menu__link"
+        >
+          <span>ようこそ、おとしもの展へ</span>
+          <span class="global-menu__arrow"></span>
+        </a>
+      </li>
+
+    </ul>
+
+  </nav>
+
+
+  <!-- =========================
+       横スクロールエリア
+  ========================== -->
+
+  <main class="horizontal-gallery">
+
+    <div class="gallery-track">
+
+
+      <!-- =========================
+           Section紹介
+      ========================== -->
+
+      <section class="gallery-panel text-panel">
+
+        <div class="section-number">
+          <span>Section</span>
+          <strong>03</strong>
+        </div>
+
+
+        <h1>暮らし</h1>
+
+
+        <p class="sub-title">
+          ― ひとりひとりの人生に触れて
+        </p>
+
+
+        <p class="description">
+          なんてことない日用品こそ、誰かの人生や性格を表しています。
+
+          <br><br>
+
+          そして毎日当たり前に使うものこそ、無くしてしまいがちでもあります。
+
+          <br><br>
+
+          おとしものは、どんな日常を教えてくれるのでしょうか。
+        </p>
+
+      </section>
+
+
+      <!-- =========================
+           落とし物 01
+      ========================== -->
+
+      <section class="gallery-panel exhibit-panel">
+
+        <div class="exhibit-artwork">
+
+          <div class="picture-frame">
+
+            <img
+              class="picture-frame__photo"
+              src="images/gunte.png"
+              alt="道に落ちていた軍手"
+            >
+
+            <img
+              class="picture-frame__border"
+              src="images/tate.png"
+              alt="額縁"
+            >
+
+          </div>
+
+        </div>
+
+
+        <article class="caption-card">
+
+          <h2>軍手</h2>
+
+          <dl>
+
+            <div>
+              <dt>2026/7/21</dt>
+            </div>
+
+            <div>
+              <dt>場所：</dt>
+              <dd>電柱の下</dd>
+            </div>
+
+            <div>
+              <dt>発見者：</dt>
+              <dd>山口貴悠</dd>
+            </div>
+
+          </dl>
+
+
+          <button
+            class="item-detail-button"
+            type="button"
+            data-item="gunte"
+          >
+            詳細を見る
+          </button>
+
+        </article>
+
+      </section>
+
+
+      <!-- =========================
+           落とし物 02
+      ========================== -->
+
+      <section class="gallery-panel exhibit-panel">
+
+        <div class="exhibit-artwork">
+
+          <div class="picture-frame">
+
+            <img
+              class="picture-frame__photo"
+              src="images/haburashi.png"
+              alt="道に落ちていた歯ブラシ"
+            >
+
+            <img
+              class="picture-frame__border"
+              src="images/tate.png"
+              alt="額縁"
+            >
+
+          </div>
+
+        </div>
+
+
+        <article class="caption-card">
+
+          <h2>携帯用歯ブラシ</h2>
+
+          <dl>
+
+            <div>
+              <dt>2026/7/9</dt>
+            </div>
+
+            <div>
+              <dt>場所：</dt>
+              <dd>公園脇の歩道</dd>
+            </div>
+
+            <div>
+              <dt>発見者：</dt>
+              <dd>丸岡瑚子</dd>
+            </div>
+
+          </dl>
+
+
+          <button
+            class="item-detail-button"
+            type="button"
+            data-item="haburashi"
+          >
+            詳細を見る
+          </button>
+
+        </article>
+
+      </section>
+
+
+      <!-- =========================
+           落とし物 03
+      ========================== -->
+
+      <section class="gallery-panel exhibit-panel">
+
+        <div class="exhibit-artwork">
+
+          <div class="picture-frame">
+
+            <img
+              class="picture-frame__photo"
+              src="images/pen.png"
+              alt="道に落ちていたペン"
+            >
+
+            <img
+              class="picture-frame__border"
+              src="images/tate.png"
+              alt="額縁"
+            >
+
+          </div>
+
+        </div>
+
+
+        <article class="caption-card">
+
+          <h2>ボールペン</h2>
+
+          <dl>
+
+            <div>
+              <dt>2026/7/17</dt>
+            </div>
+
+            <div>
+              <dt>場所：</dt>
+              <dd>並木道</dd>
+            </div>
+
+            <div>
+              <dt>発見者：</dt>
+              <dd>秦和花</dd>
+            </div>
+
+          </dl>
+
+
+          <button
+            class="item-detail-button"
+            type="button"
+            data-item="pen"
+          >
+            詳細を見る
+          </button>
+
+        </article>
+
+      </section>
+
+
+      <!-- =========================
+           落とし物 04
+      ========================== -->
+
+      <section class="gallery-panel exhibit-panel">
+
+        <div class="exhibit-artwork">
+
+          <div class="picture-frame">
+
+            <img
+              class="picture-frame__photo"
+              src="images/pic.png"
+              alt="道に落ちていたピックとハンカチ"
+            >
+
+            <img
+              class="picture-frame__border"
+              src="images/tate.png"
+              alt="額縁"
+            >
+
+          </div>
+
+        </div>
+
+
+        <article class="caption-card">
+
+          <h2>ピックとハンカチ</h2>
+
+          <dl>
+
+            <div>
+              <dt>2024/10/20</dt>
+            </div>
+
+            <div>
+              <dt>場所：</dt>
+              <dd>通っていた高校の最寄りのバス停</dd>
+            </div>
+
+            <div>
+              <dt>発見者：</dt>
+              <dd>増田亜依美</dd>
+            </div>
+
+          </dl>
+
+
+          <button
+            class="item-detail-button"
+            type="button"
+            data-item="pic"
+          >
+            詳細を見る
+          </button>
+
+        </article>
+
+      </section>
+
+
+      <!-- =========================
+           最後のセクション目次
+      ========================== -->
+
+      <section class="gallery-panel navigation-panel">
+
+        <a
+          href="../index.html?home"
+          class="nav-column home"
+        >
+          <div class="nav-inner">
+
+            <div class="nav-number">
+              Home
+            </div>
+
+            <h2>入口</h2>
+
+            <p>
+              おとしもの展へ戻る
+            </p>
+
+            <span class="nav-arrow">
+              〉
+            </span>
+
+          </div>
+        </a>
+
+        <a
+          href="../sosyaku/index.html"
+          class="nav-column sec01"
+        >
+          <div class="nav-inner">
+
+            <div class="nav-number">
+              Section 01
+            </div>
+
+            <h2>咀嚼</h2>
+
+            <p>
+              食べられたはずなのに
+            </p>
+
+            <span class="nav-arrow">
+              〉
+            </span>
+
+          </div>
+        </a>
+
+        <a
+          href="../aibou/index.html"
+          class="nav-column sec02"
+        >
+          <div class="nav-inner">
+
+            <div class="nav-number">
+              Section 02
+            </div>
+
+            <h2>相棒</h2>
+
+            <p>
+              離ればなれになっても、<br><br>忘れないよ  
+            </p>
+
+            <span class="nav-arrow">
+              〉
+            </span>
+
+          </div>
+        </a>
+
+        <div class="nav-column sec03 current">
+        <div class="nav-inner">
+
+            <div class="nav-number">
+              Section 03
+            </div>
+
+            <h2>暮らし</h2>
+
+            <p>
+              現在開いている展示
+            </p>
+
+          </div>
+
+        </div>
+
+
+
+        <a
+          href="../natsu/index.html"
+          class="nav-column sec04"
+        >
+          <div class="nav-inner">
+
+            <div class="nav-number">
+              Section 04
+            </div>
+
+            <h2>夏</h2>
+
+            <p>
+              おとしものにも季節感
+            </p>
+
+            <span class="nav-arrow">
+              〉
+            </span>
+
+          </div>
+        </a>
+
+
+        <a
+          href="../nazo/index.html"
+          class="nav-column sec05"
+        >
+          <div class="nav-inner">
+
+            <div class="nav-number">
+              Section 05
+            </div>
+
+            <h2>謎</h2>
+
+            <p>
+              オトシモノ？
+            </p>
+
+            <span class="nav-arrow">
+              〉
+            </span>
+
+          </div>
+        </a>
+
+      </section>
+
+    </div>
+
+  </main>
+
+
+  <!-- =========================
+       詳細モーダルの背景
+  ========================== -->
+
+  <div
+    class="item-modal-backdrop"
+    id="item-modal-backdrop"
+  ></div>
+
+
+  <!-- =========================
+       落とし物詳細モーダル
+  ========================== -->
+
+  <section
+    class="item-modal"
+    id="item-modal"
+    aria-hidden="true"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="item-modal-title"
+  >
+
+    <button
+      class="item-modal__close"
+      id="item-modal-close"
+      type="button"
+      aria-label="詳細画面を閉じる"
+    >
+      <span></span>
+      <span></span>
+    </button>
+
+
+    <div class="item-modal__content">
+
+
+      <!-- 左側：額縁 -->
+
+      <div class="item-modal__art-area">
+
+        <div class="item-modal__frame">
+
+          <img
+            class="item-modal__photo"
+            id="item-modal-photo"
+            src="images/pen.jpg"
+            alt="道に落ちていたペン"
+          >
+
+          <img
+            class="item-modal__frame-image"
+            src="images/tate.png"
+            alt="額縁"
+          >
+
+        </div>
+
+      </div>
+
+
+      <!-- 右側：詳細情報 -->
+
+      <article class="item-modal__sheet">
+
+        <p
+          class="item-modal__section"
+          id="item-modal-section"
+        >
+          Section 03　暮らし
+        </p>
+
+
+        <h2 id="item-modal-title">
+          軍手
+        </h2>
+
+
+        <dl class="item-modal__information">
+
+          <div>
+            <dt>発見日：</dt>
+            <dd id="item-modal-date">
+              2026/7/15
+            </dd>
+          </div>
+
+          <div>
+            <dt>場所：</dt>
+            <dd id="item-modal-location">
+              南大沢の道端
+            </dd>
+          </div>
+
+          <div>
+            <dt>発見者：</dt>
+            <dd id="item-modal-finder">
+              田中太郎
+            </dd>
+          </div>
+
+        </dl>
+
+
+        <div class="item-modal__lower">
+
+          <p
+            class="item-modal__description"
+            id="item-modal-description"
+          >
+            道端に残されていた、小さなバルーンの犬。
+            誰かが持ち歩いていたものなのか、
+            何かのイベントで配られたものなのか。
+            持ち主の姿はありませんが、
+            そこに残された形から、
+            落とす前の物語を想像します。
+          </p>
+
+
+          <figure class="item-modal__image-area">
+
+            <img
+              id="item-modal-sub-image"
+              src="images/balloon-image.jpg"
+              alt="バルーンの犬のイメージ"
+            >
+
+            <figcaption id="item-modal-caption">
+              落とし主イメージ
+            </figcaption>
+
+          </figure>
+
+        </div>
+
+      </article>
+
+    </div>
+
+  </section>
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
